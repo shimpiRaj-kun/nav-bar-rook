@@ -1,0 +1,40 @@
+
+body{
+    background-color: bisque;
+}
+
+
+
+.navBar{
+    background-color: #333;
+    overflow: hidden;
+    box-shadow: 0 0 15px chocolate;
+}
+
+.navBar a {
+    -webkit-text-stroke: 1px solid burlywood;
+    color: rgb(248, 232, 5);
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navBar a:hover
+{
+    background-color: rgb(252, 122, 0) ;
+    border: 2px solid greenyellow ;
+    border-radius: 200px;
+
+
+}
+
+.navBar a.active
+{
+    background-color: brown;
+    border: 2px solid grey;
+
+
+}
